@@ -1,0 +1,6 @@
+node_modules/
+linkedin_cookies.json
+.browser-profile/
+.env
+config.json
+*.log

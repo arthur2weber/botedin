@@ -1,0 +1,84 @@
+{
+  "perfilUrl": "https://www.linkedin.com/in/seu-usuario/",
+
+  "autor": {
+    "senioridade": "sênior",
+    "papel": "Engenheiro de Software",
+    "especialidades": ["sua stack", "suas especialidades", "sua área"]
+  },
+
+  "estilo": {
+    "idioma": "português do Brasil",
+    "tom": "técnico e didático",
+    "tamanhoAlvoPalavras": 180,
+    "emojis": "moderado",
+    "hashtags": true,
+    "quantidadeHashtags": 4,
+    "chamadaParaInteracao": true,
+    "revisarHumanizar": false,
+    "tipoDiscussao": "discussão técnica",
+    "focoEspecificidade": "Seja específico e técnico quando o tema permitir, sem jargão desnecessário."
+  },
+
+  "temas": [
+    "primeiro tema de interesse",
+    "segundo tema de interesse",
+    "terceiro tema de interesse",
+    "quarto tema de interesse"
+  ],
+
+  "agendamento": {
+    "horaDoDia": 9,
+    "minuto": 0,
+    "diasDaSemana": [1, 2, 4, 5],
+    "postsPorDia": 1
+  },
+
+  "interacoes": {
+    "maxComentariosPorExecucao": 10,
+    "comentarioComCorpo": true,
+    "visitarPerfis": {
+      "ativado": false,
+      "maxPerfisPorExecucao": 5,
+      "maxPostsPorPerfil": 2
+    }
+  },
+
+  "comentarios": {
+    "aberturas": [
+      "Spot-on analysis!",
+      "Such a critical point.",
+      "Great insight!",
+      "Such an important post!",
+      "A very mature and practical approach.",
+      "Completely aligned with what we see in practice.",
+      "Direct, insightful, and straight to the point!"
+    ],
+    "corpos": [
+      {
+        "contexto": "Striking the balance between delivery speed and quality",
+        "impacto": "often sets mature teams apart",
+        "pergunta": "when things start to scale. How do you handle this?"
+      },
+      {
+        "contexto": "Understanding that solutions should serve the business",
+        "impacto": "requires continuous alignment across the team",
+        "pergunta": "to deliver real, measurable value. Does this resonate with you?"
+      }
+    ]
+  },
+
+  "ia": {
+    "baseURL": "https://api.deepseek.com",
+    "modelo": "deepseek-chat",
+    "temperatura": 0.8,
+    "maxTokens": 800
+  },
+
+  "perfil": {
+    "nome": "",
+    "headline": "",
+    "topSkills": [],
+    "resumo": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "linkedin-post-generator",
+  "version": "1.0.0",
+  "description": "Gerador automático de posts para LinkedIn",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "authenticate": "node authenticate.js",
+    "generate": "node generate.js",
+    "post": "node post.js",
+    "start": "node index.js",
+    "publish": "DRY_RUN=false node index.js",
+    "batch": "node batch-schedule.js",
+    "interact": "node interact.js",
+    "comments": "node comments.js",
+    "profile": "node profile.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^7.32.0",
+    "playwright": "^1.40.0"
+  }
+}
